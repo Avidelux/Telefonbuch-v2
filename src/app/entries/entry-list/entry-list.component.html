@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Number</th>
+    <th>Mail</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let ent of list">
+      <td (click)="edit(ent)"> {{ent.name}} </td>  
+      <td (click)="edit(ent)"> {{ent.surname}} </td>  
+      <td (click)="edit(ent)"> {{ent.number}} </td>  
+      <td (click)="edit(ent)"> {{ent.mail}} </td>  
+      <td><a (click)="onDelete(ent.id)">[x]</a></td>
+    </tr>
+  </tbody>
+
+</table>
