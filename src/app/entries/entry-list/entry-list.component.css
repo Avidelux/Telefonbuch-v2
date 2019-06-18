@@ -1,1 +1,12 @@
-/* this is just a test */
+tr:hover{
+    background-color: grey;
+}
+#deleteButton:hover{
+    background-color: red;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding-right: 3rem;
+}

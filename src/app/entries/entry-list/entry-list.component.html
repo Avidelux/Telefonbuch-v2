@@ -11,7 +11,7 @@
       <td (click)="edit(ent)"> {{ent.surname}} </td>  
       <td (click)="edit(ent)"> {{ent.number}} </td>  
       <td (click)="edit(ent)"> {{ent.mail}} </td>  
-      <td><a (click)="onDelete(ent.id)">[x]</a></td>
+      <td><a id="deleteButton" (click)="onDelete(ent.id)">[x]</a></td>
     </tr>
   </tbody>
 
