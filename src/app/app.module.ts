@@ -13,13 +13,15 @@ import { EntriesComponent } from './entries/entries.component';
 import { EntryComponent } from './entries/entry/entry.component';
 import { EntryListComponent } from './entries/entry-list/entry-list.component';
 import { EntryService } from './shared/entry.service';
+import { EntryDetailViewComponent } from './entry-detail-view/entry-detail-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EntriesComponent,
     EntryComponent,
-    EntryListComponent
+    EntryListComponent,
+    EntryDetailViewComponent
   ],
   imports: [
     BrowserModule,
